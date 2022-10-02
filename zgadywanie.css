@@ -3,6 +3,25 @@
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    background-color: red;
+}
+
+#results-box {
+  position: absolute;
+  top: 80px;
+  max-width: 50px;
+  border: 1px solid black;
+}
+
+#results-box td, #results-box th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#results-box th {
+  padding-top: 6px;
+  padding-bottom: 3px;
+  text-align: right;
+  color: black;
 }
 
 .player-controls {

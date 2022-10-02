@@ -10,22 +10,67 @@
 </head>
 <body>
     <div class="container-1">
-        <h1>Zgadnij Anime</h1>
-        <div class="video-player">
-            <video  width="320" height="240" preload="none" poster="miniaturka.png" class="video">
-                <source type="video/mp4" src="FMAOP1.mp4" id="op">
-            </video>
-            <div class="player-controls">
-                <button class="play-button" title="play">Start</button>
-                <button class="generateAnime" title="generate" onclick="next()">Next</button>
-            </div>
-            <form autocomplete="off">
-                <div>
-                  <input type="text" id="input" placeholder="Type a name here..." />
+        <div class="flex-box-container-1">
+            <h1>Zgadnij Anime</h1>
+            <div class="video-player">
+                <video  width="320" height="240" preload="none" poster="miniaturka.png" class="video">
+                    <source type="video/mp4" src="files\FMAOP1.mp4" id="op">
+                </video>
+                <div class="player-controls">
+                    <button class="play-button" title="play">Start</button>
+                    <button class="generateAnime" title="generate" onclick="next()">Next</button>
                 </div>
-                <ul class="list"></ul>
-                <input type="reset" value="Guess" onclick="check()">
-              </form>
+                <table style="width:75%;" id="results-box">
+                    <tr>
+                        <th id="first-slot"></th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>2</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>5</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>6</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>7</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>8</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>9</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>10</th>
+                    </tr>
+
+                </table>
+                <form autocomplete="off">
+                    <div>
+                    <input type="text" id="input" placeholder="Type a name here..." />
+                    </div>
+                    <ul class="list"></ul>
+                    <input type="reset" value="Guess" onclick="check()">
+                </form>
+            </div>
         </div>
     </div>
     <script src="zgadywanie.js"></script>
