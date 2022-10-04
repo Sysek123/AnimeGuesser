@@ -60,45 +60,82 @@ function removeElements() {
 
 function check() {
   choice.push(value)
-  var img = document.createElement("img")
-  img.src = "files/okejka.png"
-  var tag = document.getElementById("first-slot")
-  tag.appendChild(img)
   if (which == 0 && choice[i] == "Full Metal Alchemist Brotherhood" ) { 
     console.log('zgadłeś')
     var img = document.createElement("img")
     img.src = "files/okejka.png"
-    var tag = document.getElementById("first-slot")
+    var tag = document.getElementsByClassName("slot")[i]
     tag.appendChild(img)
     i = i +1
   } else if (which == 1 && choice[i] == "Fire Force"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 2 && choice[i] == "Dororo"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 3 && choice[i] == "Parasyte"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 4 && choice[i] == "Baccano"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 5 && choice[i] == "Blood C"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 6 && choice[i] == "Blue Period"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 7 && choice[i] == "Code geass"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 8 && choice[i] == "Erased"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else if (which == 9 && choice[i] == "My hero academia"){
     console.log('zgadłeś')
+    var img = document.createElement("img")
+    img.src = "files/okejka.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
     i = i +1
   } else {
     console.log('dupa')
+    var img = document.createElement("img")
+    img.src = "files/error.png"
+    var tag = document.getElementsByClassName("slot")[i]
+    tag.appendChild(img)
+    i = i +1
   }
 }
