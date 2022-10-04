@@ -16,9 +16,12 @@
                 <video  width="320" height="240" preload="none" poster="miniaturka.png" class="video">
                     <source type="video/mp4" src="files\FMAOP1.mp4" id="op">
                 </video>
+                <audio id="sound">
+                    <source  src="" id="audioSource">
+                </audio>
                 <div class="player-controls">
-                    <button class="play-button" title="play">Start</button>
-                    <button class="generateAnime" title="generate" onclick="next()">Next</button>
+                    <button class="play-button" title="play">Pause</button>
+                    <button class="play-sound" value="sound" onclick="playMusic()">Start</button>
                 </div>
                 <table style="width:75%;" id="results-box">
                     <tr>
