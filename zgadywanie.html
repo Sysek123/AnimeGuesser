@@ -14,14 +14,14 @@
             <h1>Zgadnij Anime</h1>
             <div class="video-player">
                 <video  width="320" height="240" preload="none" poster="miniaturka.png" class="video">
-                    <source type="video/mp4" src="files\FMAOP1.mp4" id="op">
+                    <source type="video/mp4" src="" id="op">
                 </video>
                 <audio id="sound">
                     <source  src="" id="audioSource">
                 </audio>
                 <div class="player-controls">
-                    <button class="play-button" title="play">Pause</button>
-                    <button class="play-sound" value="sound" onclick="playMusic()">Start</button>
+                    <button class="play-button" title="play" onclick="shuffle_two_arrays_identically(videoSources, sounds)">Start</button>
+                    <button class="play-sound" value="sound" onclick="playMusic()">Play</button>
                 </div>
                 <table style="width:75%;" id="results-box">
                     <tr>
